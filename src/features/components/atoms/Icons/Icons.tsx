@@ -6,6 +6,7 @@ import { IoCameraOutline, IoSettingsOutline } from "react-icons/io5";
 import Props from "@features/InterfacesReusable/interface";
 import { IconWrapper } from "./styles";
 
+
 const Icons: React.FC<Props> = ({ iconName, color, tag }) => {
   return (
     <IconWrapper color={color} tag={tag}>

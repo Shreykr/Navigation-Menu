@@ -13,9 +13,10 @@ export const IconWrapper = styled.div<IconInterface>`
     text-align: center;
     transition: 0.5s;
     color: ${props.color || "black"};
-    
+
     ${OptionWrapper}.active & {
       transform: translateY(-35px);
+      color: ${props.color || "#FCF951FF"};
     }
   `}
 `;

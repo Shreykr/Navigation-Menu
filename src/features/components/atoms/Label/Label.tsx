@@ -8,7 +8,6 @@ const Label: React.FC<Props> = ({ htmlFor, children, color, tag }) => {
       {children}
     </LabelWrapper>
   );
-
 };
 
 export default Label;

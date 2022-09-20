@@ -5,7 +5,7 @@ export const IndicatorWrapper = styled.div`
   position: absolute;
   width: 70px;
   height: 70px;
-  background: #13d213;
+  background: #422057ff;
   border-radius: 50%;
   border: 6px solid #121212;
   transform: translateY(-46px) translateX(-6px);
