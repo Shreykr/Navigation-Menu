@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <GithubCorner
-        href='#'
+        href='https://navigation-menu-1.netlify.app/'
         bannerColor='#fff'
         octoColor='#000'
         size={80}
