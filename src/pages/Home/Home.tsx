@@ -6,7 +6,7 @@ const Home: React.FC<{}> = () => {
   return (
     <>
       <HomeWrapper>
-        <Nav color='red' iconName='GiHG' />
+        <Nav />
       </HomeWrapper>
     </>
   );

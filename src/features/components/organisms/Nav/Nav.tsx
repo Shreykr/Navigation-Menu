@@ -4,7 +4,7 @@ import { NavWrapper } from "./styles";
 import Indicator from "./Helpers/Indicator/Indicator";
 import Props from "@features/InterfacesReusable/interface";
 
-const Nav: React.FC<Props> = ({ iconName, color }) => {
+const Nav: React.FC<Props> = () => {
   const obj = [
     { iconName: "AiOH", content: "Home" },
     { iconName: "BsP", content: "Profile" },
