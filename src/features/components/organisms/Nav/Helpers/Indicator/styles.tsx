@@ -14,7 +14,7 @@ export const IndicatorWrapper = styled.div`
   &::before {
     content: "";
     position: absolute;
-    top: 58.095%;
+    top: 57.2%;
     left: -20px;
     width: 20px;
     height: 20px;
@@ -26,7 +26,7 @@ export const IndicatorWrapper = styled.div`
   &::after {
     content: "";
     position: absolute;
-    top: 57%;
+    top: 57.2%;
     left: 70.5px;
     width: 20px;
     height: 20px;
@@ -34,7 +34,7 @@ export const IndicatorWrapper = styled.div`
     border-top-left-radius: 100%;
     box-shadow: -1px -10px 0 0 #121212;
   }
-  
+
   ${OptionWrapper}.active:nth-child(1) ~ & {
     transform: translateY(-46px) translateX(-6px);
   }

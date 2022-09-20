@@ -12,8 +12,8 @@ const Nav: React.FC<Props> = () => {
     { iconName: "IoCO", content: "Photos" },
     { iconName: "IoSO", content: "Settings" },
   ];
-  const [activeState, setActiveState] = React.useState<number >(0);
-  const toggle = (index: number ) => setActiveState(index);
+  const [activeState, setActiveState] = React.useState<number>(0);
+  const toggle = (index: number) => setActiveState(index);
   return (
     <NavWrapper>
       <div className='primary-container'>
