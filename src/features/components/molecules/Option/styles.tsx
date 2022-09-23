@@ -13,7 +13,7 @@ export const OptionWrapper = styled.div.attrs(
   width: 70px;
   z-index: 1;
 
-  .third-container {
+  .container {
     position: relative;
     display: flex;
     flex-flow: column nowrap;

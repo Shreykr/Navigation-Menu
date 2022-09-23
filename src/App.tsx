@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Home } from "@src/pages";
+import { HomePage } from "@src/pages";
 import { createGlobalStyle } from "styled-components";
 import GithubCorner from "react-github-corner";
 import "./App.css";
@@ -21,7 +21,7 @@ function App() {
       />
       <GlobalStyle />
       <div className='App'>
-        <Home />
+        <HomePage />
       </div>
     </>
   );

@@ -5,5 +5,6 @@ export default interface Props {
   label?: string;
   tag?: string;
   activeState?: number;
-  children?: React.ReactNode
+  children?: React.ReactNode;
+  data?: { iconName: string; content: string }[];
 }

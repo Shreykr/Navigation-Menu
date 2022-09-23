@@ -16,7 +16,7 @@ const Option: React.FC<Props & OptionProps> = ({
 }) => {
   return (
     <OptionWrapper activeState={activeState} indexs={indexs}>
-      <div className='third-container ' onClick={() => onToggle(indexs)}>
+      <div className='container ' onClick={() => onToggle(indexs)}>
         <Icons color={color} iconName={iconName} tag={tag} />
         <Label color={color} tag={tag}>
           {children}

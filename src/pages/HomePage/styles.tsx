@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const HomeWrapper = styled.div`
+export const HomePageWrapper = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -8,4 +8,5 @@ export const HomeWrapper = styled.div`
   height: 100vh;
   width: 100vw;
   background-color: #121212;
+  cursor: pointer;
 `;
